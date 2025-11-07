@@ -1,0 +1,8 @@
+
+        {% for project in collections.projects %}
+        <section>
+            <a href="{{ project.url }}" class="project-link">
+                <img src="{{ project.data.image }}" alt="{{ project.data.title }} image" class="project-image">
+            </a>
+        </section>
+        {% endfor %}

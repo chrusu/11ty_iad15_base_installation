@@ -1,0 +1,90 @@
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(JetBrainsMono/fonts/variable/JetBrainsMono[wght].ttf) format("truetype-variations");
+}
+
+html {
+    box-sizing: border-box;
+    --background-color: #f0f0f0;
+    --header-background-color: blanchedalmond;
+    --footer-background-color: #222222;
+    --footer-text-color: #ffffff;
+    --link-color: #1a0dab;
+    --font-color: #333333;
+    --main-font: 'JetBrainsMono', monospace;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    color: var(--font-color);
+    font-family: var(--main-font);
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+main {
+    background-color: var(--background-color);
+    border-radius: 1em;
+}
+
+main img {
+    max-width: 100%;
+    border-radius: 1em;
+}
+
+main a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+.project-image {
+    max-width: 300px;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+nav a {
+    font-weight: bold;
+    color: black;
+}
+
+main {
+    padding: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+
+.theme-debug {
+    color: grey;
+    background-color:aquamarine;
+    font-size: 12px;
+    padding-left: 1em;
+    width: fit-content
+}
+
+.theme-debug.level1 {
+    background-color: lightcoral;
+    margin: 0px;
+}
+
+.theme-debug.level2 {
+    background-color: lightseagreen;
+    margin-left: 2em;
+}
+
+.theme-debug.level3 {
+    background-color: lightsalmon;
+    margin-left: 4em;
+}
